@@ -5,6 +5,10 @@
     max-width: 120rem;
     padding: 0 3.2rem;
     margin: 0 auto;
+    margin-bottom: 9.6rem;
+}
+.grid:last-child{
+    
 }
 .grid{
     display: grid;
@@ -95,6 +99,25 @@ transition: all 0.3s;
     color: #cf711f;
     border-bottom: 1px solid transparent;
 }
+.list{
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    gap:1.6rem;
+}
+.list-item{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap:1.6rem;
+}
+.list-icon{
+    width: 3rem;
+    height: 3rem;
+    color:#e67e22;
+}
+
+/* helper class */
 .margin-right-sm{
     margin-right: 1.6rem !important;
  }
