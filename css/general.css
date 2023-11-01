@@ -7,9 +7,6 @@
     margin: 0 auto;
     margin-bottom: 9.6rem;
 }
-.grid:last-child{
-    
-}
 .grid{
     display: grid;
     row-gap:9.6rem;
